@@ -1,0 +1,33 @@
+{
+  "random_state": 42,
+  "train_size": 614,
+  "test_size": 154,
+  "n_features_after_engineering": 18,
+  "class_balance_full_dataset": {
+    "0": 500,
+    "1": 268
+  },
+  "metrics": {
+    "Logistic Regression": {
+      "accuracy": 0.7922077922077922,
+      "precision": 0.671875,
+      "recall": 0.7962962962962963,
+      "f1_score": 0.7288135593220338,
+      "roc_auc": 0.8464814814814815
+    },
+    "Random Forest": {
+      "accuracy": 0.7467532467532467,
+      "precision": 0.6119402985074627,
+      "recall": 0.7592592592592593,
+      "f1_score": 0.6776859504132231,
+      "roc_auc": 0.8290740740740741
+    },
+    "XGBoost": {
+      "accuracy": 0.7467532467532467,
+      "precision": 0.6415094339622641,
+      "recall": 0.6296296296296297,
+      "f1_score": 0.6355140186915887,
+      "roc_auc": 0.8331481481481481
+    }
+  }
+}
